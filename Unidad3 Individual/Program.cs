@@ -27,7 +27,7 @@ class Program
                     ConsultarUsuario();
                     break;
                 case "3":
-                    RegistrarUsuario();
+                    RegistrarLibro();
                     break;
                 case "4":
                     ConsultarLibro();
@@ -35,7 +35,7 @@ class Program
                 case "9":
                     break;
                 default:
-                    Console.WriteLine("Opcion no valida");
+                    Console.WriteLine("Opción no valida");
                     break;
             }
 
